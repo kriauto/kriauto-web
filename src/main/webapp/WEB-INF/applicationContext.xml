@@ -14,10 +14,10 @@
         http://www.springframework.org/schema/security
         http://www.springframework.org/schema/security/spring-security-4.1.xsd">
 
-    <context:component-scan base-package="example.angularspring.dao"/>
-    <context:component-scan base-package="example.angularspring.service"/>
-    <context:component-scan base-package="example.angularspring.util"/>
-    <context:component-scan base-package="example.angularspring.batch" />
+    <context:component-scan base-package="ma.kriauto.rest.dao"/>
+    <context:component-scan base-package="ma.kriauto.rest.service"/>
+    <context:component-scan base-package="ma.kriauto.rest.util"/>
+    <context:component-scan base-package="ma.kriauto.rest.batch" />
     
     <!--  <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
 		<property name="driverClassName" value="org.postgresql.Driver" />
